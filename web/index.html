@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Crash</title>
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <h1>Crash</h1>
+    <p>
+     Cliquez sur la voiture rouge pour démarrer le jeu. Le but est de déplacer la voiture rouge à la sortie (le rectangle vert) en évitant les collisions avec les voitures bleues.
+    </p>
+    <p>
+      <span class="label" id="game-status">&nbsp;</span>
+    </p>
+    <p>
+      Parties Totales: <span class="label" id="game-total">0</span>
+      Parties Gagnées: <span class="label" id="game-total-won">0</span>
+      Meilleure Pointage: <span class="label" id="game-high-score">0</span>
+    </p>
+    <canvas id="canvas" width="900" height="680"></canvas>
+
+    <script type="application/dart" src="main.dart"></script>
+  </body>
+</html>

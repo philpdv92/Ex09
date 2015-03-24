@@ -1,0 +1,25 @@
+
+body {
+  background-color: #f8f8f8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+h1, p, label {
+  color: #67707a;
+}
+
+.label {
+	border: 1px solid #CCCCCC;
+	background-color: yellow;
+	padding: 0 10px;
+	font-weight: bold;
+}
+
+#game-status {
+	display: inline-block;
+	width: 580px;
+}

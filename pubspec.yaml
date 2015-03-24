@@ -1,0 +1,8 @@
+name: CrashApp
+version: 0.0.1
+author: Philippe Pâquet-De Varennes
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  boarding: any
+  browser: any
