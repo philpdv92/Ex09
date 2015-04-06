@@ -6,7 +6,7 @@ class Exit extends Piece {
   static const String greenColorCode = '#00FF00';
 
   Exit(int id): super(id) {
-    color = greenColorCode;
+    color.main = greenColorCode;
     shape = PieceShape.RECT;
     width = defaultWidth;
     height = defaultHeight;
@@ -28,7 +28,7 @@ class BlueCar extends Car {
   static const String blueColorCode = '#0000FF';
 
   BlueCar(int id): super(id) {
-    color = blueColorCode;
+    color.main = blueColorCode;
     speed = Speed.random();
   }
 }
@@ -37,7 +37,7 @@ class RedCar extends Car {
   static const String redColorCode = '#E40000';
 
   RedCar(int id): super(id) {
-    color = redColorCode;
+    color.main = redColorCode;
   }
 
   move([Direction direction]) {

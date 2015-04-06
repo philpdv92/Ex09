@@ -6,7 +6,7 @@ class Board extends Surface {
   Cars cars;
   RedCar redCar;
   Exit exit;
-  Size space;
+  Area space;
 
   int milliseconds;
   bool isGameRunning = false;
@@ -45,7 +45,7 @@ class Board extends Surface {
   }
 
   initGame() {
-    space = new Size(width, height);
+    space = new Area(width, height);
     cars = new Cars(carCount);
 
     cars.forEach((Car car) {
@@ -129,7 +129,7 @@ class Board extends Surface {
       initGame();
       return;
     }
-    
+
     drawPiece(redCar);
     drawPiece(exit);
   }
